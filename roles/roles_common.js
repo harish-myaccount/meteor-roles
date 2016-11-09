@@ -11,7 +11,7 @@
  *   ex: { _id:<uuid>, name: "admin" }
  */
 if (!Meteor.roles) {
-  Meteor.roles = new Mongo.Collection("roles")
+  Meteor.roles = new Mongo.Collection("smart_roles")
 }
 
 /**
